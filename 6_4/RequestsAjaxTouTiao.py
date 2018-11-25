@@ -1,6 +1,6 @@
 # encoding: utf-8
 """
-@author: caopeng
+@author: jason_sam
 @license: (C) Copyright 2013-2017, Node Supply Chain Manager Corporation Limited.
 @contact: deamoncao100@gmail.com
 @software: garner
@@ -80,7 +80,7 @@ GROUP_START = 0
 GROUP_END = 20
 
 if __name__ == '__main__':
-    # main(0)
+    # 多进程下载图片并保存
     pool = Pool()
     groups = ([x * 20 for x in range(GROUP_START, GROUP_END + 1)])
     print(groups)
